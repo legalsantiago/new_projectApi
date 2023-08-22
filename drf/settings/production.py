@@ -13,11 +13,11 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['apiTest'],
-        'USER': os.environ['triunfo'],
-        'PASSWORD': os.environ['triunfo2023'],
-        'HOST': os.environ['databaseaws1.ctpv9egj42p9.sa-east-1.rds.amazonaws.com'],
-        'PORT': os.environ['5432'],
+        'NAME': 'apiTest',
+        'USER': 'triunfo',
+        'PASSWORD': 'triunfo2023',
+        'HOST': 'databaseaws1.ctpv9egj42p9.sa-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
