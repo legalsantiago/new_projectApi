@@ -1,7 +1,7 @@
 from .base import *   #LLAMANDO AL ARCHIVO BASE 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["15.229.15.74"]
 
