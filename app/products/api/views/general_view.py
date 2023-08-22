@@ -2,7 +2,6 @@ from app.base.api import GeneralListApiView
 #from app.products.models import MeasureUnit,Indicador,CategoryProduct
 from app.products.api.serializers.general_serializers import MeasureUnitSerializer,CategoryProductSerializer,IndicadorSerializer
  
-
 class MeasureUnitListAPIview(GeneralListApiView):
     serializer_class=MeasureUnitSerializer
 
