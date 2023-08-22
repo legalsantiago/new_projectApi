@@ -3,12 +3,9 @@ from .base import *   #LLAMANDO AL ARCHIVO BASE
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
-
-
+ALLOWED_HOSTS = ["15.229.15.74"]
 
 import os
-
 
 DATABASES = {
     'default': {
