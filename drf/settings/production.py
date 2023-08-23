@@ -3,7 +3,7 @@ from .base import *   #LLAMANDO AL ARCHIVO BASE
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["15.229.15.74"]
+ALLOWED_HOSTS = ["15.229.6.215"]
 
 import os
 
